@@ -13,7 +13,7 @@ public class User {
     public User(String username, long userId) {
         this.username = username;
         this.userId = userId;
-        gameRecords = new ArrayList<>();
+        gameRecords = new ArrayList<Record>();
     }
 
     public void addRecord(Record record){
